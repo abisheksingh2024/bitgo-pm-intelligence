@@ -12,7 +12,7 @@ last_updated: 2026-03-03
 
 | Date | Title | Participants | Key Decisions / Actions |
 |------|-------|-------------|------------------------|
-| _(none yet)_ | | | |
+| 2026-03-03 | [Global Ecosystem Product Weekly](2026-03-03-global-ecosystem-product-weekly.md) | Full team (12) | Strategy shift to "native" chains; HTTPX vision; agent wallets brainstorm; Q2 roadmap prioritization; Looker dashboard metrics review |
 
 ---
 

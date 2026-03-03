@@ -5,7 +5,7 @@ slug: akshay-thakur
 vertical: ecosystem
 title: Director of Product — Ecosystems & Platform
 last_updated: 2026-03-03
-tags: [ecosystem, platform, staking, chains, defi, tokenized-assets, canton, figure]
+tags: [ecosystem, platform, staking, chains, defi, tokenized-assets, canton, figure, httpx, agent-wallets, utilization-rate]
 ---
 
 # Akshay Thakur — PM Brain
@@ -50,6 +50,11 @@ Akshay owns the full surface area of BitGo's ecosystem layer: how new blockchain
 | Offensive Security scoping | ⚪ Not started | Q2 2026 | CISO + R&D alignment |
 | Blockaid integration (TX risk) | ⚪ Not started | TBD | CISO + product alignment |
 | Post-quantum MPC roadmap | ⚪ Exploratory | TBD | Ahmed Elmasry + CISO |
+| HTTPX — strategic chain settlement layer | 🟡 Vision / Early | TBD | Chain engagement playbook; Monad, Zama, Canton |
+| Agent Wallets initiative | 🟡 Brainstorm phase | ~Q2 2026 | Team-wide ideation this week; Abishek Singh demo |
+| Utilization Rate Framework | 🟡 Definition phase | TBD | Looker dashboard extension; Sukriti + team |
+| Q2 Roadmap v1 | 🟡 In Progress | Mar 4 2026 | All PMs to mark items in/out by tomorrow |
+| bitgo-pm-intelligence repo (team rollout) | 🟡 In Progress | Near-term | Demoed to team Mar 3; GitHub link to be shared |
 
 ---
 
@@ -88,6 +93,10 @@ Akshay owns the full surface area of BitGo's ecosystem layer: how new blockchain
 - [ ] Canton Haven deposit support to unlock ~$3.5B AUC
 - [ ] DTCC DVP transfer and settlement flows
 - [ ] Evaluate red team program structure with CISO
+- [ ] Distill team's agent wallet ideas into baseline understanding + stack integration plan (by next week)
+- [ ] Schedule follow-up sessions on utilization rate framework definition (with Sukriti)
+- [ ] Share bitgo-pm-intelligence GitHub link with team so all PMs can clone + contribute
+- [ ] Define HTTPX metrics for success and chain engagement playbook (Monad, Zama first)
 
 ---
 
@@ -95,6 +104,10 @@ Akshay owns the full surface area of BitGo's ecosystem layer: how new blockchain
 
 | Date | Decision | Rationale |
 |------|----------|-----------|
+| 2026-03-03 | Strategy shift: go "native" with chains | Standard onboarding revenue can sustain at most 1 pod; must drive TVL + fund flows on key chains |
+| 2026-03-03 | HTTPX = central on-chain settlement layer | On-chain equivalent of Go Accounts; serves all bespoke chain integrations |
+| 2026-03-03 | bitgo-pm-intelligence demoed to full ecosystem team | Team-wide adoption planned; PMs to create brain files and contribute to repo |
+| 2026-03-03 | Q2 roadmap: focus on 1–2 signals not number of projects | All PMs to mark Q2 items in/out by Mar 4 |
 | 2026-03-02 | CEO greenlit Figure Phase 1-2 negotiation | BitGo drove clients + holds assets; should earn on flow |
 | 2026-03-02 | Offensive security raised as strategic priority | Lazarus Group-style attacks targeting crypto infra individuals |
 | 2026-03-02 | CISO + R&D joint ownership asked of CEO | Sequential model (R&D builds → security reviews) too slow |
@@ -132,6 +145,24 @@ Target: 40 chains/quarter at <$10k/chain (down from $25k, up from 6-7/quarter). 
 
 ### Offensive Security
 CEO-level strategic push (2026-03-02): shift from defensive to offensive security posture. Triggered by Lazarus Group phishing incident (terminal sudo access via malicious hex command). Three initiatives: (1) Blockaid → transaction risk scoring; (2) Post-quantum MPC roadmap; (3) Red team program. Key ask: CISO + R&D joint ownership, not sequential model.
+
+### HTTPX — Strategic Chain Settlement Layer (NEW 2026-03-03)
+Emerging vision from Mar 3 ecosystem weekly. Standard chain onboarding revenue is not going to scale — pipeline can sustain at most one steady-state pod. Counter-strategy: become "native" with key chains (Monad, Zama, Canton) by driving TVL and fund flows, not just providing wallet support. HTTPX is the strategic hub: serves as the central settlement layer and liquidity pool across all bespoke chain integrations — the on-chain equivalent of what Go Accounts is across BitGo's product stack. Engagement model: secure monetary incentives (grants, bps on TVL); define success metrics (liquidity, yields, competitive position); establish clear exit criteria.
+
+### Agent Wallets (NEW 2026-03-03)
+New product concept introduced in Mar 3 weekly. Abishek Singh has done a demo; Nuri has native Hyperliquid wallet integrations. Team-wide brainstorm underway — all PMs documenting ideas this week and next. Akshay to distill into a baseline understanding and integrate into the ecosystem stack. Early-stage but flagged as strategically important alongside HTTPX.
+
+### Utilization Rate Framework (NEW 2026-03-03)
+New measurement framework being developed to extend the Looker dashboard beyond staking penetration. Two definitions: (1) rate of fund flow — how quickly assets traverse from custody to downstream products (Token Management, Trade); "M2 macro equivalent." (2) snapshot utilization — how much of an asset is deployed in staking, DeFi, or settled through trade at a given point. Sukriti Garg owns the dashboard; team providing input on definitions. Follow-up sessions to be scheduled.
+
+### Ecosystem Metrics (as of 2026-03-03)
+From Looker dashboard review in Mar 3 weekly:
+- Net new revenue: ~$16–17M (Jan 26 → Mar 3); already crossing $15M OKR but definition needs refinement (includes non-ecosystem clients)
+- NRE: $41K (below $60–80K estimate — potential pipeline softening or timing lag)
+- Assets onboarded: 53 since Jan 26; only 1 crossed $1M AOP (1.89% conversion)
+- Incremental AOP: $2.6B vs $2.5B target (ahead; includes 21 Shares $800M + Block Demon)
+- Coin coverage: 90/100 + 549/1,000 (target: 850+ of top 1,000 by H1 end — on track)
+- Staking balance: $10–11B vs $17B H1 target (significantly behind; anything <30% penetration on radar)
 
 ---
 
