@@ -1,0 +1,62 @@
+# BitGo PM Intelligence — Configuration
+# Copy this file and fill in your details.
+# DO NOT commit personal tokens or credentials.
+
+repo:
+  name: bitgo-pm-intelligence
+  org: BitGo
+  default_branch: main
+
+# Your identity (fill in when setting up)
+user:
+  name: ""
+  email: ""
+  slack_handle: ""
+  vertical: ""           # ecosystem | custody-platform | prime | caas | scaas
+  brain_file: ""         # e.g., pms/your-name.md
+
+# Connector integrations
+# Set enabled: true once the MCP connector is configured in Claude settings
+integrations:
+  google_calendar:
+    enabled: false
+    # Triggers: fetch Gemini Notes transcript after each meeting
+    auto_debrief: true
+
+  google_drive:
+    enabled: false
+    # Gemini Notes folder ID (optional — speeds up transcript lookup)
+    gemini_notes_folder_id: ""
+
+  slack:
+    enabled: false
+    # Channels to scan during pm-debrief (add your key channels)
+    watchlist_channels:
+      - pm-team
+      - ecosystem-pm
+      - custody-pm
+      - prime-pm
+    # DM contacts to include in scan (Slack user IDs or names)
+    watchlist_dms: []
+    # How far back to scan (hours)
+    scan_window_hours: 24
+
+  github:
+    enabled: false
+    # Repos to watch for PR merges → product context updates
+    watch_repos:
+      - BitGo/BitGoJS
+      - BitGo/bitgo-platform
+
+  jira:
+    enabled: false
+    # Project keys to track for OKR progress
+    watch_projects: []
+
+# Preferences
+preferences:
+  default_priority: P2
+  # How often to remind about stale brain files (days)
+  staleness_threshold_days: 14
+  # Auto-apply low-risk knowledge updates without confirmation
+  auto_apply_low_risk: true
