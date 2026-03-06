@@ -31,7 +31,7 @@ Abhishek Singh Soni owns privacy chain onboarding strategy and EVM batch chain o
 
 | Priority | Initiative | Status | Notes |
 |----------|-----------|--------|-------|
-| P0 | Midnight Network onboarding (privacy chain) | 🔴 Blocked | Also tracked under Abishek Singh in CSV — confirm PM ownership; $3.1–3.6M NRE at stake |
+| P0 | Midnight Network onboarding (privacy chain) | 🔴 Blocked | **Shared with Abishek Singh** — Soni owns privacy chains strategy layer; Abishek owns onboarding execution. $3.1–3.6M NRE at stake. |
 | TBD | EVM batch onboarding | ⚪ TBD | Specific batches not yet in Q1/Q2 CSV — needs roster confirmation |
 
 *Note: As of 2026-03-06 this PM's initiative list has not been fully populated from the roadmap CSV. Soni may own Q2-onwards EVM batches and/or privacy chain work that is still being scoped.*
@@ -57,8 +57,8 @@ Abhishek Singh Soni owns privacy chain onboarding strategy and EVM batch chain o
 
 ## Open Items
 
-- [ ] Confirm Soni's exact initiative list with Akshay — CSV only shows "Abishek Singh"; Soni's work may be newer/unlogged
-- [ ] Clarify Midnight ownership: Abishek Singh (CSV) vs. Abhishek Singh Soni (privacy chains strategy)
+- [ ] Confirm Soni's full initiative list with Akshay — CSV only shows "Abishek Singh"; Soni's work may be newer/unlogged
+- [ ] Unblock Midnight Network (shared with Abishek) — identify eng/dependency blocker
 - [ ] Define Q2 EVM batch pipeline for Soni — which chains, timeline, eng allocation
 - [ ] Confirm formal OKR assignment for H1 2026
 

@@ -81,7 +81,7 @@ Abishek owns two areas: (1) the full asset and chain onboarding pipeline — get
 
 ## Key Blockers
 
-- **Midnight Network (P0, Blocked)**: Privacy chain blocker — tracked in Abishek's CSV but Abhishek Singh Soni owns privacy chains strategy; needs resolution to hit $3.1-3.6M NRE. Clarify ownership split.
+- **Midnight Network (P0, Blocked)**: Shared with Abhishek Singh Soni — Abishek owns the onboarding execution side, Soni owns the privacy chains strategy layer. Currently blocked; needs resolution to hit $3.1–3.6M NRE.
 - **Canton AUC at Risk**: Haven deposit support needed to unlock ~$3.5B AUC; DTCC DVP settlement target mid-March
 
 ---
