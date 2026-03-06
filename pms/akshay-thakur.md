@@ -62,6 +62,24 @@ Akshay owns the full surface area of BitGo's ecosystem layer: how new blockchain
 
 ---
 
+## Q2 Roadmap Charter (Akshay's Own Line Items)
+
+*Added 2026-03-06 — these are Akshay's direct entries in the 2026 roadmap sheet.*
+
+| Focus Area | Description | Q1 | Q2 | Priority | Status | Target |
+|-----------|-------------|----|----|----------|--------|--------|
+| AI Infrastructure | Generic agentic framework — meta-level MCP architecture; class definitions + inheritance model; any use case buildable in <30 min | Out | In | P0 | In Progress | Q2 2026 |
+| AI Infrastructure | Self-reflection loops — agents iteratively generate V2 via user feedback; hub-and-spoke orchestration | Out | Out | P1 | Planned | Q3 2026 |
+| RWA / Partnerships | Figure Markets Phase 1 rev model — bps-on-trade-volume commercial arrangement go-live | In | In | P0 | In Negotiation | Q2 2026 |
+| Canton Network | Canton AUC → $1B — unlock via Haven deposit support + DTCC DVP settlement | In | In | P0 | At Risk | Q2 2026 |
+| Staking Utilization | Auto Staking GA — beta → general availability; RMCC/OC approval; first client cohort live | In | In | P0 | Beta | Q2 2026 |
+| Security | Offensive security program — Blockaid (TX risk scoring), post-quantum MPC roadmap, red team scoping | Out | In | P1 | Not Started | Q2 2026 |
+| Platform Intelligence | Utilization rate framework — define fund flow rate + snapshot utilization; extend Looker dashboard | In | In | P1 | In Progress | Q2 2026 |
+| Chain Strategy | HTTPX — engagement model + success metrics defined; Monad + Zama initiated | Out | In | P1 | Early | Q2 2026 |
+| AI / Product | Agent wallets — distill team concepts into baseline product spec; integrate into ecosystem stack | In | In | P2 | Brainstorm | Q2 2026 |
+
+---
+
 ## Key Partners Owned
 
 | Partner | Priority | What Akshay Owns | Status |
