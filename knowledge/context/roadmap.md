@@ -104,7 +104,7 @@ All PMs marked Q2 items in/out by Mar 4. Focus: 1-2 strong signals, not number o
   - Layer 4: Orchestrator Hub (intent classification, context assembly, multi-agent coordination, trust gate, logging)
   - Layer 5: Self-Reflection Engine (feedback → performance scoring → V2 agent proposals → PM review)
 - Key design decisions: stateless agents, MCP as sole API interface, role-based context isolation, no autonomous execution in Q2, BaseAgent class as platform IP
-- **Singapore handoff target**: clean architecture deck for VP Eng + 1-2 PMs before Mar 30 hackathon; Akshay not attending due to global tensions
+- **Singapore handoff target**: clean architecture deck for VP Eng + 1-2 PMs before Mar 30 hackathon
 - See full spec: knowledge/topics/ai-platform-architecture.md
 
 ### Q2 Go Accounts AI Strategy — Four Growth Streams (NEW Mar 6)
@@ -135,7 +135,7 @@ All PMs marked Q2 items in/out by Mar 4. Focus: 1-2 strong signals, not number o
 **Next steps** (Mar 6):
 - Landon + Gobi to draft vision statements for their elements (stress test with Emer, Richard, other PMs)
 - Wednesday follow-up session scheduled
-- Singapore AI hackathon March 30 – April 3 (Gobi confirmed; Landon backup if Akshay immigration-blocked)
+- Singapore AI hackathon March 30 – April 3 (Gobi confirmed; Landon backup)
 
 ### Offensive Security (CEO-endorsed Mar 2)
 - Triggered by Lazarus Group-style phishing incident (terminal sudo access via malicious hex command)
