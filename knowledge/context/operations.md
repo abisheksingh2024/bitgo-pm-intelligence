@@ -52,7 +52,6 @@ refreshed: 2026-03-02
 
 - Privacy coins: likely hard-no for shielded coins unless auditors/regulators/OC have transparency access
 - Binance: concerns about flat 10% ownership—push for utilization/volume alignment
-- EB-1C petition (personal): building narrative on L-1A materials
 
 ## Key People in Process
 
