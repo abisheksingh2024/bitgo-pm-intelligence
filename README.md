@@ -1,6 +1,6 @@
 # BitGo PM Intelligence
 
-A shared knowledge base for BitGo Product Managers — built on top of Claude + Jarvis, designed to give every PM the same context as every other PM, and to help new joinees get up to speed fast.
+A shared knowledge base for BitGo Product Managers — built on top of Claude + Cowork, designed to give every PM the same context as every other PM, and to help new joinees get up to speed fast.
 
 ---
 
@@ -17,7 +17,7 @@ A shared knowledge base for BitGo Product Managers — built on top of Claude + 
 
 | Vertical | Owner | Description |
 |----------|-------|-------------|
-| Ecosystem | TBD | Network & Asset Enablement, Token Lifecycle, Staking, Institutional DeFi, Go Accounts |
+| Ecosystem | Abishek Singh | Network & Asset Enablement, Token Lifecycle, Staking, Institutional DeFi, Go Accounts |
 | Custody Platform | TBD | Wallet Platform, Custody Controls, HSM/MPC, Developer Experience |
 | Prime | TBD | Prime brokerage, trading, OES |
 | CaaS | TBD | Crypto as a Service |
@@ -154,6 +154,8 @@ pm-query: what deals are pending legal review?
 | Glossary | `knowledge/shared/glossary.md` |
 | Meeting notes | `meetings/` |
 | Skill definitions | `framework/skills/` |
+| Automation script | `scripts/pm-debrief-daily.sh` |
+| Automation logs | `logs/pm-debrief.log` |
 | Templates | `framework/templates/` |
 
 ---
@@ -168,4 +170,4 @@ pm-query: what deals are pending legal review?
 
 ---
 
-*Built by BitGo Product. Questions? Ping the PM team in Slack.*
+*Built by BitGo Product. Questions? Ping **@abishek** in #product or drop a comment in the repo.*
