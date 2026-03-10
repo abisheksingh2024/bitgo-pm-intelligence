@@ -63,3 +63,4 @@ See `framework/templates/brain.md` for the full template. The brain file capture
 ---
 
 *Last updated: 2026-03-05 — added 7 ecosystem PM brain files from Q1/Q2 roadmap CSV*
+| Abishek Singh | Ecosystem → SCaaS | [abishek.md](abishek.md) | ✅ Active | 2026-03-11 |
